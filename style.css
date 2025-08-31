@@ -20,7 +20,7 @@ html {
 }
 
 body {
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Jost', sans-serif;
     background: var(--primary-black);
     color: var(--text-white);
     line-height: 1.6;
@@ -56,11 +56,11 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 1rem 2rem;
-    background: rgba(10, 10, 10, 0.95);
-    backdrop-filter: blur(10px);
+    padding: 0rem 1rem;
+    /*background: rgba(10, 10, 10, 0.95);
+    backdrop-filter: blur(1px);*/
     z-index: 1000;
-    transition: all 0.3s ease;
+    transition: all 0.2 s ease;
 }
 
 .nav-container {
@@ -150,18 +150,18 @@ body {
 }
 
 .hero-title {
-    font-family: Tahoma, sans-serif;
-    font-size: clamp(4rem, 10vw, 8rem);
-    font-weight: 900;
+    font-family: 'Jost', sans-serif;
+    font-size: clamp(3rem, 5vw, 7rem);
+    font-weight: 600;
     margin-bottom: 1rem;
     color: var(--text-white);
     letter-spacing: 4px;
-    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
     text-transform: uppercase;
 }
 
 .hero-subtitle {
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Jost', sans-serif;
     font-size: clamp(1.2rem, 3vw, 2rem);
     font-weight: 500;
     color: var(--light-gray);
@@ -206,7 +206,7 @@ body {
 }
 
 .discover-text {
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Jost', sans-serif;
     font-size: 0.875rem;
     text-transform: uppercase;
     letter-spacing: 1px;
