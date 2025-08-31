@@ -5,32 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LS World - Reimagined for the Bold</title>
     <link rel="icon" href="https://ext.same-assets.com/1146120813/3072114017.png">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Orbitron:wght@400;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <div class="container">
-            <div class="nav-brand">
-                <img src="https://ext.same-assets.com/1146120813/370887000.png" alt="LS World Logo" class="logo">
-                <span class="brand-text">LS</span>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#home">
+                    <img src="https://i.ibb.co/S40RrhKq/logo.webp" alt="LS World Logo">
+                </a>
             </div>
-            <nav class="nav-menu" id="navMenu">
-                <a href="#home" class="nav-link">Home</a>
-                <a href="#" class="nav-link">User Control Panel</a>
-                <a href="#" class="nav-link">Community</a>
-            </nav>
-            <button class="mobile-menu-btn" id="mobileMenuBtn">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#community">Community</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-toggle">
                 <span></span>
                 <span></span>
                 <span></span>
-            </button>
+            </div>
         </div>
-    </header>
+    </nav>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="hero-bg"></div>
         <div class="hero-content">
             <h1 class="hero-title">LS WORLD</h1>
             <p class="hero-subtitle">reimagined for the bold.</p>
@@ -97,7 +99,7 @@
     </section>
 
     <!-- About Section -->
-    <section class="about" id="about">
+    <section class="about" id="community">
         <div class="container">
             <div class="about-grid">
                 <div class="about-content">
@@ -134,7 +136,7 @@
         </div>
     </section>
 
-    <!-- Gallery Section -->
+   <!-- Gallery Section -->
     <section class="gallery" id="gallery">
         <div class="container">
             <div class="section-header">
@@ -205,16 +207,17 @@
                         </div>
                     </div>
 
+                    
                     <button class="carousel-btn prev-btn" id="prevBtn">
-                        <span>←</span>
+                        <span>‹</span>
                     </button>
 
                     <button class="carousel-btn next-btn" id="nextBtn">
-                        <span>→</span>
+                        <span>›</span>
                     </button>
                 </div>
 
-                <div class="carousel-indicators">
+                 <div class="carousel-indicators">
                     <button class="indicator active" data-slide="0"></button>
                     <button class="indicator" data-slide="1"></button>
                     <button class="indicator" data-slide="2"></button>
@@ -224,8 +227,8 @@
                 </div>
 
                 <div class="carousel-thumbnails">
-                    <button class="thumbnail" data-slide="0">
-                        <img src="https://ext.same-assets.com/1146120813/4196825163.webp" alt="Thumbnail 1">
+                    <button class="thumbnail active" data-slide="0">
+                        <img src="https://ext.same-assets.com/1146120813/2748738674.webp" alt="Thumbnail 1">
                     </button>
                     <button class="thumbnail" data-slide="1">
                         <img src="https://ext.same-assets.com/1146120813/408171692.webp" alt="Thumbnail 2">
@@ -263,12 +266,12 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-col">
-                    <h4 class="footer-title">LSWorld</h4>
+                    <h4 class="footer-title">LS:World</h4>
                     <p class="footer-text">
-                        LS WORLD is not affiliated with or endorsed by Rockstar North, Take-Two Interactive or other rightsholders.
+                        LS:World is not affiliated with or endorsed by Rockstar North, Take-Two Interactive or other rightsholders.
                     </p>
                     <p class="footer-contact">
-                        Email: ama@lsrp.world
+                        Email: lsworldrp@gmail.com
                     </p>
                 </div>
 
@@ -294,19 +297,15 @@
                 <div class="footer-col">
                     <h5 class="footer-heading">Follow us</h5>
                     <div class="social-links">
-                        <a href="#" class="social-link">
+                        <a href="#https://www.tiktok.com/@street_life_1" class="social-link">
                             <img src="https://ext.same-assets.com/1146120813/1242780993.svg" alt="TikTok">
                         </a>
-                        <a href="#" class="social-link">📧</a>
+                        <a href="#https://discord.gg/kREf2ueuKN" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 71 55" fill="none">
+                                <path d="M60.1045 4.8978C55.5792 2.8214 50.7265 1.2916 45.6527 0.41542C45.5603 0.39851 45.468 0.440769 45.4204 0.525289C44.7963 1.6353 44.105 3.0834 43.6209 4.2216C38.1637 3.4046 32.7345 3.4046 27.3892 4.2216C26.905 3.0581 26.1886 1.6353 25.5617 0.525289C25.5141 0.443589 25.4218 0.40133 25.3294 0.41542C20.2584 1.2888 15.4057 2.8186 10.8776 4.8978C10.8384 4.9147 10.8048 4.9429 10.7825 4.9795C1.57795 18.7309 -0.943561 32.1443 0.293408 45.3914C0.299005 45.4562 0.335386 45.5182 0.385761 45.5576C6.45866 50.0174 12.3413 52.7249 18.1147 54.5195C18.2071 54.5477 18.305 54.5139 18.3638 54.4378C19.7295 52.5728 20.9469 50.6063 21.9907 48.5383C22.0523 48.4172 21.9935 48.2735 21.8676 48.2256C19.9366 47.4931 18.0979 46.6 16.3292 45.5858C16.1893 45.5041 16.1781 45.304 16.3068 45.2082C16.679 44.9293 17.0513 44.6391 17.4067 44.3461C17.471 44.2926 17.5606 44.2813 17.6362 44.3151C29.2558 49.6202 41.8354 49.6202 53.3179 44.3151C53.3935 44.2785 53.4831 44.2898 53.5502 44.3433C53.9057 44.6363 54.2779 44.9293 54.6529 45.2082C54.7816 45.304 54.7732 45.5041 54.6333 45.5858C52.8646 46.6197 51.0259 47.4931 49.0921 48.2228C48.9662 48.2707 48.9102 48.4172 48.9718 48.5383C50.038 50.6034 51.2554 52.5699 52.5959 54.435C52.6519 54.5139 52.7526 54.5477 52.845 54.5195C58.6464 52.7249 64.529 50.0174 70.6019 45.5576C70.6551 45.5182 70.6887 45.459 70.6943 45.3942C72.1747 30.0791 68.2147 16.7757 60.1968 4.9823C60.1772 4.9429 60.1437 4.9147 60.1045 4.8978ZM23.7259 37.3253C20.2276 37.3253 17.3451 34.1136 17.3451 30.1693C17.3451 26.225 20.1717 23.0133 23.7259 23.0133C27.308 23.0133 30.1626 26.2532 30.1066 30.1693C30.1066 34.1136 27.28 37.3253 23.7259 37.3253ZM47.3178 37.3253C43.8196 37.3253 40.9371 34.1136 40.9371 30.1693C40.9371 26.225 43.7636 23.0133 47.3178 23.0133C50.9 23.0133 53.7545 26.2532 53.6986 30.1693C53.6986 34.1136 50.9 37.3253 47.3178 37.3253Z" fill="currentColor"/>
+                            </svg>
+                        </a>
                     </div>
-                    <div class="payment-methods">
-                        <span>QRIS</span>
-                        <span>Bank Transfer</span>
-                        <span>E-wallet</span>
-                    </div>
-                </div>
-            </div>
-
             <div class="footer-bottom">
                 <p>Copyright © 2025 LS World All Rights Reserved.</p>
             </div>
